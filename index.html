@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy pet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Inter:wght@700&family=Manrope:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header__bg" id="header">
+      <header class="header__menu">
+          <div class="menu__logo">
+              <a href="#" class="header__logo">
+                  <img
+                      src="./icons/logo-icon.png"
+                      alt="logo-icon"
+                      class="header__image"
+                  >
+              </a>
+              <p class="logo__text">Happy pet</p>
+          </div>
+          <nav class="nav__list">
+              <ul class="menu__list">
+                  <li class="nav__item">
+                      <a 
+                        href="index.html" 
+                        class="menu__link" 
+                        id="now"
+                      >
+                          Home
+                      </a>
+                  </li>
+                  <li class="nav__item nav__item--drop" >
+                      <div class="nav-item__friends">
+                        <a href="#"  class="menu__link">
+                            Friends
+                        </a>
+                        <img 
+                          src="./icons/triangle.png" 
+                          alt=""
+                          class="nav-triangle__icon">
+                      </div>
+                      <ul class="nav__dropdown">
+                        <li class="dropdown__item">
+                          Dogs
+                        </li>
+                        <li class="dropdown__item">
+                          Cats
+                        </li>
+                        <li class="dropdown__item">
+                          Rabbit
+                        </li>             
+                        <li class="dropdown__item">
+                          Parrot
+                        </li>
+                      </ul>
+                  </li>
+                  <li class="nav__item">
+                      <a href="./products.html"  class="menu__link">
+                          Products
+                      </a>
+                  </li>
+                  <li class="nav__item">
+                      <a 
+                        href="about-us.html"     class="menu__link"
+                        >
+                          About us
+                      </a>
+                  </li>
+              </ul>
+          </nav>
+          <div class="menu__icons">
+              <a href="#" class="menu__icon menu__icon-phone">
+                  <img
+                      src="./icons/phone-icon.png"
+                      alt="phone-icon"
+                      >
+              </a>
+              <a href="#" class="menu__icon menu__icon-shop">
+                  <img
+                      src="./icons/shop-icon.png" alt="shop-icon"
+                      >
+              </a>
+          </div>
+      </header>
+
+      <div class="main__content">
+          <div class="main__text">
+              <h1>Your new friend with home delivery<br>
+                  and pet supplies</h1>
+              <p class="main__title">An online store for pets and products is a<br>convenient choice when you don't want to<br>leave the house</p>
+              <button class="look__button">
+                  <span class="look__title">Look at the product</span>
+              </button>
+          </div>
+          
+          <img
+              src="./photo/main-photo.png"
+              alt="main-photo"
+              class="main__photo"
+              >
+      </div>
+  </div>
+
+  <main>
+      <div class="search-products">
+          <span class="search-products__title">
+              Search your products!
+          </span>
+          <form 
+              class="search-products__form"
+              action="#"> 
+              <input 
+                  type="text" 
+                  name="text" 
+                  class="form__input" 
+                  placeholder="Enter"
+              >
+              <button class="form__submit">
+                  <span class="form__submit-title">
+                      Search
+                  </span>
+              </button> 
+          </form>
+      </div>
+
+      <section class="help-content">
+          <span class="section__title">
+              Help the little pet
+          </span>
+          <article class="help-content__animal">
+              <div class="animal__wrapper">
+                  <p class="animal__description">
+                      Hello, my name is Lucky.<br>
+                      I am a little girl who was thrown away by a bad person.<br>
+                      I love children very much and would like to be played with.<br>
+                      <b>Can we try to find a host for me?</b>
+                  </p>
+                  <div class="animal__details">
+                      <span class="details__gender">
+                          GIRL
+                      </span>
+                      <div class="animal__column"></div>
+                      <span class="details__gender">
+                          2 MONTHS
+                      </span>
+                      <div class="animal__column"></div>
+                      <span class="details__gender">
+                          HELP ME,PLEASE
+                      </span>
+                  </div>
+              </div>
+              <img 
+                  src="./photo/cat.jpg" 
+                  alt="cat-photo"
+                  class="animal__photo"
+              >
+          </article>
+
+          <article class="help-content__animal">
+              <div class="animal__wrapper">
+                  <p class="animal__description">
+                      Hello, my name is Bayraktar.<br>
+                      I am already an adult boy and they found me on the track,<br>
+                      because the previous owners did not like me at all and <br>
+                      wanted to get rid of me. Unfortunately,  they succeeded, <br>
+                      but I am not giving up and am looking for a new family.<br>
+                      <b>I will love and protect you!<b>
+                  </p>
+                  <div class="animal__details">
+                      <span class="details__gender">
+                          BOY
+                      </span>
+                      <div class="animal__column"></div>
+                      <span class="details__gender">
+                          1 YEAR
+                      </span>
+                      <div class="animal__column"></div>
+                      <span class="details__gender">
+                          HELP ME,PLEASE
+                      </span>
+                  </div>
+              </div>
+              <img 
+                  src="./photo/dog.jpg" 
+                  alt="cat-photo"
+                  class="animal__photo"
+              >
+          </article>
+      </section>
+
+      <section class="products">
+          <span class="section__title">
+              Products
+          </span>
+          <div class="products__content">
+            <div class="catalog">
+                <div class="card" data-qa="card">
+                  <img
+                    src="./photo/corm.png"
+                    alt="card image"
+                    class="card__image"
+                  >
+                  <h3 class="card__title">
+                    Royal Canin for cats 12 month<br>Ageing
+                  </h3>
+                  <p class="card__code">Product code: 195434</p>
+                  <div class="card__review">
+                    <div class="stars">
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                    </div>
+                    <span class="card__review-title">
+                      Reviews: 5
+                    </span>
+                  </div>
+                  <div class="card__price">
+                    <span class="card__price-title">Price:</span>
+                    <span class="card__price-usd">$20,99</span>
+                  </div>
+                  <button class="card__button">
+                    <span class="card__button-title" data-qa="card-hover">
+                      BUY
+                    </span>
+                  </button>
+                </div>
+                <div class="card">
+                  <img
+                    src="./photo/kist.png"
+                    alt="card image"
+                    class="card__image"
+                  >
+                  <h3 class="card__title">
+                    Dog Toys Rawhide Pet for year<br>Chewing
+                  </h3>
+                  <p class="card__code">Product code: 195434</p>
+                  <div class="card__review">
+                    <div class="stars">
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                    </div>
+                    <span class="card__review-title">
+                      Reviews: 5
+                    </span>
+                  </div>
+                  <div class="card__price">
+                    <span class="card__price-title">Price:</span>
+                    <span class="card__price-usd">$45,20</span>
+                  </div>
+                  <button class="card__button">
+                    <span class="card__button-title">
+                      BUY
+                    </span>
+                  </button>
+                </div>
+                <div class="card">
+                  <img
+                    src="./photo/toi.png"
+                    alt="card image"
+                    class="card__image"
+                  >
+                  <h3 class="card__title">
+                    Cat Litter Trays Kitten Pet Cat<br>health
+                  </h3>
+                  <p class="card__code">Product code: 195434</p>
+                  <div class="card__review">
+                    <div class="stars">
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                    </div>
+                    <span class="card__review-title">
+                      Reviews: 5
+                    </span>
+                  </div>
+                  <div class="card__price">
+                    <span class="card__price-title">Price:</span>
+                    <span class="card__price-usd">$100</span>
+                  </div>
+                  <button class="card__button">
+                    <span class="card__button-title">
+                      BUY
+                    </span>
+                  </button>
+                </div>
+                <div class="card">
+                  <img
+                    src="./photo/lezh.png"
+                    alt="card image"
+                    class="card__image"
+                  >
+                  <h3 class="card__title">
+                    Golden Retriever Cat Kitten<br>Pet Litter box, Brown sofa type
+                  </h3>
+                  <p class="card__code">Product code: 195434</p>
+                  <div class="card__review">
+                    <div class="stars">
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                      <div class="stars__star"></div>
+                    </div>
+                    <span class="card__review-title">
+                      Reviews: 5
+                    </span>
+                  </div>
+                  <div class="card__price">
+                    <span class="card__price-title">Price:</span>
+                    <span class="card__price-usd">$154,50</span>
+                  </div>
+                  <button class="card__button">
+                    <span class="card__button-title">
+                      BUY
+                    </span>
+                  </button>
+                </div>
+            </div>
+            <button class="show__button" type="button">
+                <span class="show__button__title">
+                    Show more
+                </span>
+            </button>
+          </div>
+      </section>
+  </main>
+
+  <footer>
+    <div class="footer__bg">
+      <div class="footer__content">
+        <div class="content__text">
+          <p class="text__contact">
+            Contact us: 0667249022
+          </p>
+          <br>
+          <p class="text__email">
+            Email:  otrubchak.tetiana@chnu.edu.ua
+          </p>
+        </div>
+        <div class="content__icon">
+          <a href="#">
+            <img 
+              src="./icons/telegram.png" 
+              alt="telegram"
+              class="icon__ph icon__ph-telegram"
+              >
+          </a>
+          <a href="#">
+            <img 
+              src="./icons/insta.png" 
+              alt="telegram"
+              class="icon__ph icon__ph-insta"
+              >
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+</html>
